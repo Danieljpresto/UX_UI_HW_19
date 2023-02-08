@@ -7,7 +7,6 @@ header {
 }
 header ul {
     float: right;
-    color:cadetblue;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,18 +30,21 @@ li {
 .heroImg {
     background-color: white;
     padding: 100px 15px;
+
 }
 .content {
-    max-width: 300px;
+    outline-style: inset;
+    outline-width: 2px;
+    border-radius: 50%;
+    max-width: 350px;
     margin: 0 auto;
-    padding: 50px;
-    background-color: white;
+    padding: 75px;
     text-align: center;
 }
 button {
     padding: 15px;
-    background-color: #ba5a31 ;
-    color: white;
+    background-color: darkorange ;
+    color: black;
     font-size: 15px;
     border-radius: 4px;
 }
@@ -50,6 +52,7 @@ footer {
     background-color:#f9edcc;
     padding: 5px;
     color: white;
+    width: 100%;
 }
 footer ul {
     list-style: none;
@@ -82,7 +85,7 @@ footer li {
 .myWork {
     padding: 60px 30px;
     padding-top: 0;
-    background-color: white;
+    background-color: oldlace;
 }
 .workGrid {
     display: grid;
